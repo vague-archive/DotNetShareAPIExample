@@ -1,0 +1,21 @@
+@page
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>I am the walrus</title>
+</head>
+<body>
+<div>
+    @Jason()
+</div>
+</body>
+</html>
+
+@functions {
+    private static string Jason()
+    {
+        return "Hello World! at: " + DateTime.Now;
+    }
+}
